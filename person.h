@@ -9,5 +9,6 @@ class Person{
 public:
 	Person(const string&, size_t);
 	void IncreaseAge();
+	string GetName();
 	string ToString()const;
 };
